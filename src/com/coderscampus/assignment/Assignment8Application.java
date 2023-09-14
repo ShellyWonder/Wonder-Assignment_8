@@ -32,6 +32,10 @@ public class Assignment8Application {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
             }
+            //sjw
+            //synchronized (allNumbers) {	
+            //    allNumbers.notifyAll();
+            //}
         }
 
         System.out.println("Done getting all 1,000,000 numbers");
